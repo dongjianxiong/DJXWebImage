@@ -12,7 +12,6 @@
 		6315F5D11D430FA300A464EC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6315F5D01D430FA300A464EC /* ViewController.m */; };
 		6315F5D41D430FA300A464EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6315F5D21D430FA300A464EC /* Main.storyboard */; };
 		6315F5D71D430FA300A464EC /* DJXWebImage.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6315F5D51D430FA300A464EC /* DJXWebImage.xcdatamodeld */; };
-		6315F5D91D430FA300A464EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6315F5D81D430FA300A464EC /* Assets.xcassets */; };
 		6315F5DC1D430FA300A464EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6315F5DA1D430FA300A464EC /* LaunchScreen.storyboard */; };
 		6315F5E71D430FA300A464EC /* DJXWebImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6315F5E61D430FA300A464EC /* DJXWebImageTests.m */; };
 		6315F5F21D430FA300A464EC /* DJXWebImageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6315F5F11D430FA300A464EC /* DJXWebImageUITests.m */; };
@@ -29,6 +28,10 @@
 		633A315B1D5AD0EB0015A347 /* UIImage+WebP.m in Sources */ = {isa = PBXBuildFile; fileRef = 633A31531D5AD0EB0015A347 /* UIImage+WebP.m */; };
 		633A315C1D5AD0EB0015A347 /* UIImageView+DJXWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 633A31561D5AD0EB0015A347 /* UIImageView+DJXWebImage.m */; };
 		633A315F1D5AD12E0015A347 /* DJXImageDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 633A315E1D5AD12E0015A347 /* DJXImageDownloadManager.m */; };
+		926E3AD8229CDEC9004B01EA /* ClassA.m in Sources */ = {isa = PBXBuildFile; fileRef = 926E3AD7229CDEC9004B01EA /* ClassA.m */; };
+		926E3ADB229CDEE0004B01EA /* ClassB.m in Sources */ = {isa = PBXBuildFile; fileRef = 926E3ADA229CDEE0004B01EA /* ClassB.m */; };
+		926E3ADE229CDF46004B01EA /* ClassA+addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 926E3ADD229CDF46004B01EA /* ClassA+addition.m */; };
+		926E3AE1229CDF63004B01EA /* ClassB+addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 926E3AE0229CDF63004B01EA /* ClassB+addition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,7 +60,6 @@
 		6315F5D01D430FA300A464EC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6315F5D31D430FA300A464EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6315F5D61D430FA300A464EC /* DJXWebImage.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DJXWebImage.xcdatamodel; sourceTree = "<group>"; };
-		6315F5D81D430FA300A464EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6315F5DB1D430FA300A464EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6315F5DD1D430FA300A464EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6315F5E21D430FA300A464EC /* DJXWebImageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DJXWebImageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -92,6 +94,14 @@
 		633A31561D5AD0EB0015A347 /* UIImageView+DJXWebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+DJXWebImage.m"; sourceTree = "<group>"; };
 		633A315D1D5AD12E0015A347 /* DJXImageDownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJXImageDownloadManager.h; sourceTree = "<group>"; };
 		633A315E1D5AD12E0015A347 /* DJXImageDownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJXImageDownloadManager.m; sourceTree = "<group>"; };
+		926E3AD6229CDEC9004B01EA /* ClassA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClassA.h; sourceTree = "<group>"; };
+		926E3AD7229CDEC9004B01EA /* ClassA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClassA.m; sourceTree = "<group>"; };
+		926E3AD9229CDEE0004B01EA /* ClassB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClassB.h; sourceTree = "<group>"; };
+		926E3ADA229CDEE0004B01EA /* ClassB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClassB.m; sourceTree = "<group>"; };
+		926E3ADC229CDF46004B01EA /* ClassA+addition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ClassA+addition.h"; sourceTree = "<group>"; };
+		926E3ADD229CDF46004B01EA /* ClassA+addition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ClassA+addition.m"; sourceTree = "<group>"; };
+		926E3ADF229CDF63004B01EA /* ClassB+addition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ClassB+addition.h"; sourceTree = "<group>"; };
+		926E3AE0229CDF63004B01EA /* ClassB+addition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ClassB+addition.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,7 +161,6 @@
 				6315F5CF1D430FA300A464EC /* ViewController.h */,
 				6315F5D01D430FA300A464EC /* ViewController.m */,
 				6315F5D21D430FA300A464EC /* Main.storyboard */,
-				6315F5D81D430FA300A464EC /* Assets.xcassets */,
 				6315F5DA1D430FA300A464EC /* LaunchScreen.storyboard */,
 				6315F5DD1D430FA300A464EC /* Info.plist */,
 				6315F5D51D430FA300A464EC /* DJXWebImage.xcdatamodeld */,
@@ -160,6 +169,14 @@
 				6315F6481D46100200A464EC /* DJXImageCell.m */,
 				6315F64A1D46103200A464EC /* DJXTableViewController.h */,
 				6315F64B1D46103200A464EC /* DJXTableViewController.m */,
+				926E3AD6229CDEC9004B01EA /* ClassA.h */,
+				926E3AD7229CDEC9004B01EA /* ClassA.m */,
+				926E3AD9229CDEE0004B01EA /* ClassB.h */,
+				926E3ADA229CDEE0004B01EA /* ClassB.m */,
+				926E3ADC229CDF46004B01EA /* ClassA+addition.h */,
+				926E3ADD229CDF46004B01EA /* ClassA+addition.m */,
+				926E3ADF229CDF63004B01EA /* ClassB+addition.h */,
+				926E3AE0229CDF63004B01EA /* ClassB+addition.m */,
 			);
 			path = DJXWebImage;
 			sourceTree = "<group>";
@@ -345,7 +362,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6315F5DC1D430FA300A464EC /* LaunchScreen.storyboard in Resources */,
-				6315F5D91D430FA300A464EC /* Assets.xcassets in Resources */,
 				6315F5D41D430FA300A464EC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -375,14 +391,18 @@
 				633A315F1D5AD12E0015A347 /* DJXImageDownloadManager.m in Sources */,
 				6315F6291D45B3A700A464EC /* DJXImageModel.m in Sources */,
 				633A315C1D5AD0EB0015A347 /* UIImageView+DJXWebImage.m in Sources */,
+				926E3AD8229CDEC9004B01EA /* ClassA.m in Sources */,
 				633A31571D5AD0EB0015A347 /* DJXRequestOperation.m in Sources */,
 				6315F60E1D43158900A464EC /* DJXCacheManager.m in Sources */,
 				6315F5D11D430FA300A464EC /* ViewController.m in Sources */,
 				6315F6491D46100200A464EC /* DJXImageCell.m in Sources */,
 				6315F64C1D46103200A464EC /* DJXTableViewController.m in Sources */,
+				926E3AE1229CDF63004B01EA /* ClassB+addition.m in Sources */,
 				633A315B1D5AD0EB0015A347 /* UIImage+WebP.m in Sources */,
+				926E3ADB229CDEE0004B01EA /* ClassB.m in Sources */,
 				6315F5CE1D430FA300A464EC /* AppDelegate.m in Sources */,
 				6315F6281D45B3A700A464EC /* DJXImageModel+CoreDataProperties.m in Sources */,
+				926E3ADE229CDF46004B01EA /* ClassA+addition.m in Sources */,
 				6315F5CB1D430FA300A464EC /* main.m in Sources */,
 				633A315A1D5AD0EB0015A347 /* UIImage+MultiFormat.m in Sources */,
 				6315F5D71D430FA300A464EC /* DJXWebImage.xcdatamodeld in Sources */,
